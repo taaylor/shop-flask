@@ -1,0 +1,60 @@
+#wrapper {
+	max-width: 960px;
+	margin: auto;
+}
+
+header {
+	padding: 20px 0;
+}
+
+form[name="search"] {
+	float: right;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	list-style-position: inside;
+	padding: 10px;
+}
+
+.top-menu li{
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+	font-size: 20px;
+}
+
+.top-menu li.active{
+	background: #fd2222;
+	color: #fff;
+}
+
+.top-menu a {
+	color: #8a8a8a;
+}
+
+.top-menu a:hover {
+	color: #fd2222;
+}
+
+#heading {
+	background: #fd2222;
+	margin: 30px 0;
+	padding-left: 20px;
+}
+
+h1 {
+	display: inline-block;
+	color: #7e7e7e;
+	font: 40px/40px 'Oswald', sans-serif; 
+	margin: 0;
+	padding: 0 10px;
+}

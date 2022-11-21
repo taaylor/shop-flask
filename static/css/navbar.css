@@ -2,23 +2,31 @@
     width: 100%;
     height: 100px;
     background-color: rgb(228, 228, 228);
-    position: fixed;
-    top: 20;
+    position: fixed !important;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
-.nav-ul-class{  
+.nav-ul-class {
     list-style-type: none;
     display: flex;
-    gap: 20px;
-    margin-left: 570px;
-    margin-right: 100px;
+    justify-content: end; 
+    gap: 20px;  
+    margin-left: 325px;
+    margin-right: 325px;
     margin-top: -35px;
 }
 
 .content-navbar-a a{
     color: #4c4c4c;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
+}
+
+.content-navbar-a a:hover{
+    color: #fd2222;
 }
 
 .container-center-ul{
