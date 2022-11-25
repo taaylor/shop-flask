@@ -30,7 +30,7 @@ body {
 	border-top: 5px solid #7e7e7e;
 	margin: 0;
 }
-input[type="text"] {
+input[type="text"], input[type="search"] {
 	background-color: #f3f3f3;
 	border: 1px solid #e7e7e7;
 	height: 30px;
@@ -42,8 +42,10 @@ input[type="submit"] {
 	background-color: #fd2222;
 	border: none;
 	height: 32px;
+	width: 70px;
+	cursor: pointer;
 }
 p {
-	margin: 20px 0;
+	margin: 15px 0;
 }
 
